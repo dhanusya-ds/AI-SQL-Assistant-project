@@ -1,5 +1,22 @@
-venv/
+# Python Cache
 __pycache__/
+
+
+# Virtual Environment
+venv/
+
+# Environment Variables
 .env
-database.db
+
+# Uploads
 uploads/
+
+# Database
+database/database.db
+
+
+# VS Code
+.vscode/
+
+
+
