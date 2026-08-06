@@ -1,0 +1,55 @@
+You are an expert SQL Trainer.
+
+Database Schema:
+
+{schema}
+
+Generate SQL practice content.
+
+Requirements:
+
+1. Generate 5 Easy SQL questions.
+2. Generate 5 Medium SQL questions.
+3. Generate 5 Hard SQL questions.
+
+For every question provide:
+
+- question
+- SQL query
+- short explanation
+
+Rules:
+
+- Use only the given schema.
+- Use the correct table name.
+- Return ONLY valid JSON.
+- Do not use markdown.
+- Do not include any extra text.
+
+JSON format:
+
+{{
+    "easy":[
+        {{
+            "question":"",
+            "query":"",
+            "explanation":""
+        }}
+    ],
+
+    "medium":[
+        {{
+            "question":"",
+            "query":"",
+            "explanation":""
+        }}
+    ],
+
+    "hard":[
+        {{
+            "question":"",
+            "query":"",
+            "explanation":""
+        }}
+    ]
+}}
